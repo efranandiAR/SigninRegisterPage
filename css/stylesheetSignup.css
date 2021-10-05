@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway";
+}
+
+li {
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear{
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    border-bottom: solid 1px #eee;
+}
+
+.logo {
+    width: 110px;
+    margin-top: 20px;
+}
+
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    padding: 0 25px;
+    color: black;
+    line-height: 75px;
+    flex: auto;
+    float: left;
+    transition: all 0.5s;
+    font-size: 16px;
+}
+
+
+.header-right a:hover {
+    background-color: rgba(50, 50, 50, 0.3);
+}
+
+.menu-icon {
+    color: black;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none !important;
+}
+
+.fa{
+    margin-right: 5px;
+}
+
+.main {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.main h2 {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.container-form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.container-form p{
+    text-align: left;
+    font-size: 14px;
+    color:rgb(56, 56, 56)
+}
+
+.signup-btn {
+    color:rgb(34, 255, 181)
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-color: transparent;
+    border-bottom: solid 1px #aaaaaa;
+    font-size: 14px;
+}
+
+.btn {
+    height: 47px;
+    font-size: 16px;
+    color: white;
+    background-color:rgb(37, 214, 155);
+    border-radius: 4px;
+}
+
+.submit{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit:hover{
+    background-color: rgb(32, 173, 126);
+}
+
+.form:focus{
+    outline: none;
+}

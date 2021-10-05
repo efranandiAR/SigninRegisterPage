@@ -1,0 +1,16 @@
+@media all and (max-width: 703px) {
+    .main{
+        width: 100%;
+    }
+
+    .btn{
+        width: 100%;
+    }
+    .header-right{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block !important;
+    }
+}
